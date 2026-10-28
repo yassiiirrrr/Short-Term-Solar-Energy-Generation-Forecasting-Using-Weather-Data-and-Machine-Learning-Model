@@ -33,3 +33,36 @@ Transitioning from traditional statistical methods, this project implements a pr
 │   └── evaluate.py          # Metric calculations (R², RMSE, MAE)
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
+
+## 🗺️ Project Roadmap
+This repository reflects the complete lifecycle of the forecasting system, structured into the following phases:
+
+* **Phase 1: System Architecture & Planning (Completed)**
+  * Defining forecasting horizons and selecting target features.
+  * Designing the data flow and model pipeline architecture.
+* **Phase 2: Data Engineering (Completed)**
+  * Sourcing Kaggle solar plant telemetry and weather datasets.
+  * Handling missing values, normalizing features, and engineering time-based variables.
+* **Phase 3: Baseline Modeling (Completed)**
+  * Developing and tuning Random Forest and XGBoost regression models.
+  * Benchmarking initial predictions against validation sets.
+* **Phase 4: Advanced Deep Learning (In Progress)**
+  * Designing and training artificial neural networks using TensorFlow and Keras.
+  * Comparing deep learning performance against ensemble baselines.
+* **Phase 5: Final Evaluation & Delivery (Upcoming)**
+  * Compiling final metrics.
+  * Finalizing project documentation and preparing the system for demonstration.
+
+## 📊 Evaluation Metrics
+The models are evaluated against the test dataset using the following regression metrics to ensure predictive accuracy:
+* **R-Squared (R²):** Measures the proportion of variance in power output predictable from the weather data.
+* **Root Mean Squared Error (RMSE):** Penalizes larger forecasting errors to ensure model reliability during sudden weather shifts.
+* **Mean Absolute Error (MAE):** Represents the average magnitude of forecasting errors.
+
+
+## 👥 Contributors
+This project is developed as a Major Engineering Project for the B.Tech Computer Science and Engineering (Artificial Intelligence and Machine Learning) curriculum.
+
+* **[Yasir Abbas Naqvi]** – Roll No: [2410030883]
+* **[Gopal Tomar]** – Roll No: [2410030845]
+* **[Kishan Tiwari]** – Roll No: [2410030752]
