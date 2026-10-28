@@ -18,22 +18,6 @@ Transitioning from traditional statistical methods, this project implements a pr
 * **Deep Learning:** TensorFlow, Keras
 * **Development Environment:** Google Colab, Jupyter Notebooks
 
-## 📂 Repository Structure
-```text
-├── data/                    # Dataset directory (Raw and Processed - excluded via .gitignore)
-├── docs/                    # Architecture diagrams, design documents, and presentations
-├── notebooks/               # Experimental Jupyter/Colab notebooks
-│   ├── 01_EDA_and_Preprocessing.ipynb
-│   ├── 02_Ensemble_Baselines_XGBoost_RF.ipynb
-│   └── 03_Deep_Learning_Models.ipynb
-├── src/                     # Modularized Python scripts for production
-│   ├── data_loader.py       # Data ingestion and cleaning scripts
-│   ├── feature_eng.py       # Feature selection and engineering
-│   ├── model_trainer.py     # Training routines for ML and DL models
-│   └── evaluate.py          # Metric calculations (R², RMSE, MAE)
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
-
 ## 🗺️ Project Roadmap
 This repository reflects the complete lifecycle of the forecasting system, structured into the following phases:
 
@@ -66,3 +50,20 @@ This project is developed as a Major Engineering Project for the B.Tech Computer
 * **[Yasir Abbas Naqvi]** – Roll No: [2410030883]
 * **[Gopal Tomar]** – Roll No: [2410030845]
 * **[Kishan Tiwari]** – Roll No: [2410030752]
+
+## 📂 Repository Structure
+```text
+├── data/                    # Dataset directory (Raw and Processed - excluded via .gitignore)
+├── docs/                    # Architecture diagrams, design documents, and presentations
+├── notebooks/               # Experimental Jupyter/Colab notebooks
+│   ├── 01_EDA_and_Preprocessing.ipynb
+│   ├── 02_Ensemble_Baselines_XGBoost_RF.ipynb
+│   └── 03_Deep_Learning_Models.ipynb
+├── src/                     # Modularized Python scripts for production
+│   ├── data_loader.py       # Data ingestion and cleaning scripts
+│   ├── feature_eng.py       # Feature selection and engineering
+│   ├── model_trainer.py     # Training routines for ML and DL models
+│   └── evaluate.py          # Metric calculations (R², RMSE, MAE)
+├── requirements.txt         # Project dependencies
+└── README.md                # Project documentation
+
