@@ -1,5 +1,14 @@
-# Custom Project Data & Environments
+# Ignore dataset files
 data/
 *.csv
-.env
-.venv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# (Optional) Ignore the model if it's over GitHub's 100MB limit, 
+# otherwise leave this commented out so your Gradio app has the model to run.
+# models/*.pkl
