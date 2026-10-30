@@ -43,6 +43,8 @@ This project is developed as a Major Engineering Project for the B.Tech Computer
 - **Kishan Tiwari** – Roll No: 2410030752
 
 ## 📂 Repository Structure
+
+```text
 ├── data/                    # Dataset directory (Raw and Processed - excluded via .gitignore)
 ├── docs/                    # Architecture diagrams, design documents, and presentations
 ├── models/                  # Serialized models (e.g., xgboost_solar_model.pkl)
