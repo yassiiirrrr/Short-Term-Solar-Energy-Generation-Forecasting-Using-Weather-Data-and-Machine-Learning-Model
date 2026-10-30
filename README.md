@@ -27,10 +27,8 @@ This repository reflects the complete lifecycle of the forecasting system:
   - Engineered cyclic time-based variables.
 - **Phase 3: Ensemble Modeling (Completed)**
   - Developed, tuned, and compared Random Forest and XGBoost models.
-- **Phase 4: Deep Learning & Comparative Analysis (Completed)**
-  - Evaluated complex neural networks against tree-based ensembles (XGBoost selected for final deployment due to optimal balance of high accuracy and low latency).
-- **Phase 5: Final Deployment & Exhibition (Completed)**
-  - Deployed the `xgboost_solar_model.pkl` via a Gradio dashboard.
+- **Phase 4: Final Deployment & Exhibition (Completed)**
+  - Deployed the optimized `xgboost_solar_model.pkl` via a live Gradio web dashboard.
 
 ## 📊 Evaluation Metrics
 The final XGBoost deployment model achieved the following metrics on unseen, chronologically split test data:
@@ -45,18 +43,16 @@ This project is developed as a Major Engineering Project for the B.Tech Computer
 - **Kishan Tiwari** – Roll No: 2410030752
 
 ## 📂 Repository Structure
-```text
 ├── data/                    # Dataset directory (Raw and Processed - excluded via .gitignore)
 ├── docs/                    # Architecture diagrams, design documents, and presentations
 ├── models/                  # Serialized models (e.g., xgboost_solar_model.pkl)
 ├── notebooks/               # Experimental Jupyter/Colab notebooks
 │   ├── 01_EDA_and_Preprocessing.ipynb
-│   ├── 02_Ensemble_Baselines_XGBoost_RF.ipynb
-│   └── 03_Deep_Learning_Models.ipynb
+│   └── 02_Ensemble_Baselines_XGBoost_RF.ipynb
 ├── src/                     # Modularized Python scripts for production
 │   ├── data_loader.py       # Data ingestion and cleaning scripts
 │   ├── feature_eng.py       # Feature selection and engineering
-│   ├── model_trainer.py     # Training routines for ML and DL models
+│   ├── model_trainer.py     # Training routines for ML models
 │   └── evaluate.py          # Metric calculations (R², RMSE, MAE)
 ├── app.py                   # Gradio web prototype deployment script
 ├── requirements.txt         # Project dependencies
